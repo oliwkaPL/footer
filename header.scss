@@ -1,0 +1,37 @@
+/*.navbar {
+  display: flex;
+  justify-content: space-around !important;
+}*/
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: space-around;
+}
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255);
+}
+
+.pipe {
+  color: #F8C100;
+}
+
+.form-control {
+  padding: .375rem 9.75rem;
+  border-color: white;
+}
+
+.loupe_img {
+  background:url(img/loupe.svg) no-repeat;
+  background-position: 2%;
+  padding-left: 12%;
+}
