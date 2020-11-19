@@ -69,4 +69,28 @@ body {
   margin: auto;
 }
 
+.links_mobile{
+  display: none;
 
+}
+
+
+@media (max-width: 750px) {
+  .links{
+    display:none;
+  }
+  .links_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+  .container{
+    margin-top: 10px;
+  }
+  .text_footer{
+    width: 100%;
+  }
+}
